@@ -833,9 +833,13 @@ We also need to update [${RESOURCE_BACKUP_NAME}](https://github.com/${REPO_FULL_
       width: 100%;
     }
 
+    .filters-row {
+      grid-template-columns: 1fr;
+    }
+
     .filter-input {
       flex: 1;
-      width: auto;
+      width: 100%;
     }
 
     th, td {
